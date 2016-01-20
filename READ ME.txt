@@ -1,0 +1,7 @@
+This repo contains some of macros I used to analyse data for my master thesis. I was working with ROOT framework (read more: https://en.wikipedia.org/wiki/ROOT)
+Those files cannot be run without data I cannot provide. 
+
+My task was to analyse data gathered in ATLAS experiment in CERN in 2013 to calculate efficiency of MBTS detector. To do that, I started working on over 12 billion events, but this number gradually decreased due to analysis' limitations.
+
+MBTS is a kind of scintillation counter - that means we have a signal but we don't know how many particles was its source. Data from MBTS can be tied with data from inner detector (which provides data about energies or reconstructed tracks), but the area of detecting for this two detectors is different. Data comparison can be made for about half of area of MBTS and for the rest of it results were estimated. 
+
